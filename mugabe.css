@@ -1,0 +1,81 @@
+.subscribe-button {
+    background-color: rgb(70, 180, 76);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 180px;
+    border-radius:18px ;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 25px;
+    margin-left: 100px;
+    position: 10;
+    transition: background-color 1s,
+    color 1s;
+   
+  }
+  .subscribe-button:hover{
+    background-color: blue;
+    opacity: 0.8;
+    
+  }
+
+  .subscribe-button:active{
+    background-color: red;
+    opacity: 0.5;
+    
+  } 
+
+
+  .like-button {
+    background-color:white;
+    border-color: rgb(41, 118, 211);
+    border-width: 1px;
+    color: blue;
+    height: 35px;
+    width: 150px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20PX;
+    margin-left: 300PX;
+    
+    
+  }
+  .like-button:hover{
+    opacity: 0.8;
+    background-color: rebeccapurple;
+  }
+
+  .like-button:active{
+    opacity: 0.5;
+  } 
+
+  .share-button {
+    background-color: blue;
+    border-color: rgb(218, 197, 157);
+    border-width: 1px;
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20PX;
+    margin-left: 300PX;
+    
+  }
+   
+    .share-button:hover{
+      opacity: 0.8;
+      background-color: rgb(94, 78, 50);
+    }
+
+    .share-button:active{
+      opacity: 0.5;
+    }
+
+    

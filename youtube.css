@@ -1,0 +1,60 @@
+
+
+  <style>
+
+.search-bar{
+      font-size: 15px;
+      margin-top: 10px;
+      width: 300px;
+      color: blue;
+      cursor: pointer;
+     
+ 
+     
+      
+      
+      
+
+    }
+    .Hakon Wium Lie{
+      width: 600px;
+      height: 400px;
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 20;
+      cursor: pointer;
+       
+    }
+.apple-text{
+  font-size: 20px;
+  width: 1200px;
+  color: green;
+  cursor: pointer;
+  user-select: all;
+  
+}
+  
+.video-title{
+  color: blue;
+  width: 1200px;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: all;
+  
+}
+.video-author{
+  font-size: 30px;
+  color: greenyellow;
+font-style: italic;
+user-select: all;
+cursor: pointer;
+
+
+}
+
+CSS Log{
+  margin-left: 40px;
+ 
+}
+  </style>
+ 

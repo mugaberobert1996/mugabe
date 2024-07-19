@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<title>application form</title>
+<body bgcolor="green">
+<form action="form1.html">
+<h1>Patient health questionnaire</h1>
+<h2>General Information</h2>
+<lable for="firstName">First Name:</lable>
+<input type="text" id="FirstName" value="" placeholder="First Name"><br><br>
+
+<lable for="LastName">Last Name:</lable>
+<input type="text" id="lastname" value="" placeholder="Last Name"><br><br>
+<lable for="PhoneNumber">phone number:</lable>
+<input type="text" id="PhoneNumber" value="" placeholder="phone number"><br><br>
+<lable for="Email">Email Address:</lable>
+<input type="text" id="Email" value="" placeholder="Enter Email"><br><br>
+
+<lable for="Email">ID Number:</lable>
+<input type="text" id="ID Number" value="" placeholder="Enter ID Number"><br><br>
+</form>
+<h3>Questionaire</h3>
+<p>Thank you for agree to fill this questionaire.<br> Please answer throughtfully and truthfully.</p>
+<ol><li>What is your Gender?</li><br>
+<input type="radio" id="male" Name="gender">
+<lable for="male">male</lable><br><br>
+<input type="radio" id="female" Name="gender">
+<lable for="female">female</lable><br>
+
+<li> have you been experiencing a loss in appetite?</li><br>
+<input type="radio" id="yes" Name="appetite">
+<lable for="yes">yes</lable><br>
+<input type="radio" id="No" Name="appetite">
+<lable for="No">No</lable><br>
+<input type="radio" id="Slightly" Name="appetite">
+<lable for="Slightly">Slightly</lable><br>
+
+<li>Kindly rate our service</li>
+<select name="feedback" id"">
+<option value="5">Excellent </option>
+<option value="4">Very Good </option>
+<option value="3">Good </option>
+<option value="2">Fair </option>
+<option value="1">poor </option></select><br>
+
+<li>Please select the symptoms you are experiencing</li><br>
+<input type="checkbox" id="headache">
+<lable for="headache">headache</lable><br>
+
+<input type="checkbox" id="Dizziness">
+<lable for="Dizziness">Dizziness</lable><br>
+
+<input type="checkbox" id="cough">
+<lable for="cough">cough</lable><br>
+<input type="checkbox" id="Fatigue">
+<lable for="Fatigue">Fatigue</lable><br>
+<input type="checkbox" id="Nausea and Vomiting">
+<lable for="Nausea and Vomiting">Nausea and Vomiting</lable></ol><br>
+
+<h3>Any other Syptoms experienced?</h3><br>
+<textarea name="" id="" cols="100" rows="10" placeholder="please type your comment"></textarea><br><br>
+<input type="submit" value="submit" style="color:blue">
+
+<p>&copy, my official email :mugaberobert1996@gmail.com</p>
+
+
+</head>
+</body>
+</html>
+
+
+
+
